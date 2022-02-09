@@ -24,7 +24,15 @@
         text-align: center;
     }
 } 
-
+@media screen and (max-width:500px) {
+    .team-player {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    padding: 1%;
+}
+    
+}
 #loan-pricing {
     text-align: center;
     padding: 0.25% 5% 2% 5%;
