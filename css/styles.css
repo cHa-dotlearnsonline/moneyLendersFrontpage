@@ -1,0 +1,61 @@
+#introduction {
+    background-color: #F7FD04;
+    padding: 0.25% 5% 1px 5%;
+}
+.text-holder {
+    line-height: 1.5rem;
+    text-align: left;
+}
+.apply-btn {
+    background-color: #4D375D;
+}
+.apply-btn:hover {
+    background-color: #393E46;
+}
+
+@media screen and (min-width: 900px) {
+    .intro-image {
+        position: relative;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 770px) {
+    #introduction {
+        text-align: center;
+    }
+} 
+
+#loan-pricing {
+    text-align: center;
+    padding: 0.25% 5% 2% 5%;
+    margin-top: 0.5%;
+}
+.moneyIcon {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.team-player {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 100%;
+    padding: 1%;
+}
+#team {
+    text-align: center;
+    background-color: #4D375D;
+    padding: 1% 5% 2% 5%;
+    margin-top: 0.5%;
+    color: #ffff;
+}
+.team-header {
+    margin-bottom: 2%;
+}
+#contact-infor {
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright {
+    margin-top: 0.25%;
+    font-size: 0.75rem;
+}
