@@ -26,8 +26,8 @@
 } 
 @media screen and (max-width:500px) {
     .team-player {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 100%;
     padding: 1%;
 }
